@@ -2,8 +2,6 @@
 
 Deadline: 29.11.2023 23:59
 
-Počet bodů: nebodované
-
 Cílem toho úkolu je ověřit že máš připravené prostředí a vytvořit projekt, který budeme používat napříč celým kurzem. Do Google Classroom odevzdejte odkaz na svůj repozitář (ve tvaru https://github.com/rostislavjadavan).
 
 -   Oveř si že máš nainstalovaný Node JS, ideálně verze 18+ (node -v) a NPM
@@ -49,4 +47,7 @@ PORT=3000
 - Install dot environment to your app to use env.process.host
 ``curl localhost:3000``
 - reach the server and return the request.
-
+``npm i typescript``
+- install latest version of typescript
+``npm install --save-dev @types/node @types/express``
+- install typescript dependencies

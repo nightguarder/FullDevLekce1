@@ -43,11 +43,15 @@ PORT=3000
 ### Dependecies
 ``npm i express``
 - will install Express save it in the dependencies list in "package.json"
+
 ``npm i dotenv``
 - Install dot environment to your app to use env.process.host
+
 ``curl localhost:3000``
 - reach the server and return the request.
+
 ``npm i typescript``
 - install latest version of typescript
+
 ``npm install --save-dev @types/node @types/express``
 - install typescript dependencies

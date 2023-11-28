@@ -33,7 +33,7 @@ app.listen(3000)
 -   Pokud ti něco nefunguje, tak mi to stejně pošli a mrknem na to spolu 🙂
 
 ## Notes
-- nainstalovat si nvm (Node Version Manager), můžeme přepínat mezi jednotlivými verzemi node 18 --> 20.8
+- nainstalovat si nvm (Node Version Manager), kde můžeme přepínat mezi jednotlivými verzemi node 18 --> 20.8
 - install dotenv  and modify the index.js
 - create .env a .git files
 - add npm run dev to package.json Scripts. 

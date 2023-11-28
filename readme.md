@@ -2,8 +2,6 @@
 
 Deadline: 29.11.2023 23:59
 
-Počet bodů: nebodované
-
 Cílem toho úkolu je ověřit že máš připravené prostředí a vytvořit projekt, který budeme používat napříč celým kurzem. Do Google Classroom odevzdejte odkaz na svůj repozitář (ve tvaru https://github.com/rostislavjadavan).
 
 -   Oveř si že máš nainstalovaný Node JS, ideálně verze 18+ (node -v) a NPM
@@ -35,7 +33,7 @@ app.listen(3000)
 -   Pokud ti něco nefunguje, tak mi to stejně pošli a mrknem na to spolu 🙂
 
 ## Notes
-- nainstalovat si nvm (Node Version Manager), můžeme přepínat mezi jednotlivými verzemi node 18 --> 20.8
+- nainstalovat si nvm (Node Version Manager), kde můžeme přepínat mezi jednotlivými verzemi node 18 --> 20.8
 - install dotenv  and modify the index.js
 - create .env a .git files
 - add npm run dev to package.json Scripts. 
@@ -45,8 +43,15 @@ PORT=3000
 ### Dependecies
 ``npm i express``
 - will install Express save it in the dependencies list in "package.json"
+
 ``npm i dotenv``
 - Install dot environment to your app to use env.process.host
+
 ``curl localhost:3000``
 - reach the server and return the request.
 
+``npm i typescript``
+- install latest version of typescript
+
+``npm install --save-dev @types/node @types/express``
+- install typescript dependencies

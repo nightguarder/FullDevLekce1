@@ -8,7 +8,7 @@ dotenv.config();
 
 const app: Express = express();
 const port = process.env.PORT;
-const msg: string = "Hello World!"
+const msg: string = "TypeScript version."
 
 app.get('/', (req: Request, res: Response) => {
   res.send(msg);
